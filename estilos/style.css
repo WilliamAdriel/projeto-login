@@ -2,8 +2,8 @@
 
 /*
     Paleta de Cores
-    Verde: #49a09d
-    Lilás: #5f2c82
+    Cinza: #747275
+    Vermelho: #991515
 */
 
 * {
@@ -39,6 +39,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+
+    transition: width 0.5s ease;
+    transition-timing-function: ease-in-out;
 }
 
 section#login > div#imagem {
