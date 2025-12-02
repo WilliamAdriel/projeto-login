@@ -9,11 +9,12 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    body {
+    body { /* Tablets */
         background-image: linear-gradient(to top, #991515, #747275);
     }
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -34,7 +35,7 @@
     }
     section#login {
         width: 950px;
-
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -54,5 +55,6 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
